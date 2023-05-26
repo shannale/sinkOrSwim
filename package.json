@@ -1,0 +1,33 @@
+{
+  "name": "jsp",
+  "version": "1.0.0",
+  "description": "## Background  You are in search of fish to catch in this magical pond that is a home for all sea creatures. When the game begins, it will start off with an empty pond with a fishing rod controlled by the cursor. This pond is a circular grid that will generate ripples at a randomized location with a randomized timer that will show ripples indicating to the player the location of the fish. For each iteration of the game collecting the fish follow these rules:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shannale/sinkOrSwim.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shannale/sinkOrSwim/issues"
+  },
+  "homepage": "https://github.com/shannale/sinkOrSwim#readme",
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.30.2",
+    "css-loader": "^6.7.4",
+    "mini-css-extract-plugin": "^2.7.6",
+    "regenerator-runtime": "^0.13.11",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.0",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}

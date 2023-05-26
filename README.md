@@ -25,7 +25,7 @@ In addition, this project will include:
 - Instructions to explain the background and rules of the game
 - A production README 
 
-![img](wireframe.png)
+![img](pictures/outline.png)
 
 ## Technologies, Libraries, APIs
 
