@@ -7,10 +7,13 @@
   box-sizing: border-box;
 }
 
-canvas {
-  border: 5px solid black;
-  position: absolute;
+#pond {
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  background-color: pink;
 }
