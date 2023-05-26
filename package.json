@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "## Background  You are in search of fish to catch in this magical pond that is a home for all sea creatures. When the game begins, it will start off with an empty pond with a fishing rod controlled by the cursor. This pond is a circular grid that will generate ripples at a randomized location with a randomized timer that will show ripples indicating to the player the location of the fish. For each iteration of the game collecting the fish follow these rules:",
   "main": "index.js",
+  "browserslist": [
+      "defaults"
+    ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+      "watch": "webpack --watch --mode=development",
+      "build": "webpack --mode=production"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shannale/sinkOrSwim.git"
@@ -30,4 +34,6 @@
     "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1"
   }
+
+
 }
