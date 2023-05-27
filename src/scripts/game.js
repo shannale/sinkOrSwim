@@ -15,6 +15,7 @@ class Game {
         //   object.draw(ctx);
         // });
     };
+
 }
 
 export default Game; 

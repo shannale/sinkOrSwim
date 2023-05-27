@@ -42,4 +42,20 @@ document.addEventListener("DOMContentLoaded", () => {
   new GameView(game, ctx).start();
 });
 
+// instructions introduction box 
+document.addEventListener("DOMContentLoaded", () => {
+  // let game = new Game();
+
+  let startButton = document.getElementById("start-button");
+
+  startButton.addEventListener("click",startGame)
+
+});
+
+
+const startGame = (e) => {
+  let start = document.getElementById("introduction");
+  start.classList.add("hidden");
+}
+
 
