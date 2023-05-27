@@ -1,3 +1,6 @@
+@import "reset.css";
+
+
 * {
     margin: 0px;
     padding: 0px; 
@@ -5,12 +8,29 @@
 }
 
 #pond {
-    top: 50%; 
-    left: 50%;
+    // top: 50%; 
+    // left: 50%;
     max-width: 100%;
     max-height: 100%;
+    display: none;
 }
 
+// // styling for background
+// #canvas {
+//     width: auto;
+//     max-height: 100%;
+//     cursor: url("pictures/cursor.png"), auto;
+// }
+
 body {
-    background-color: pink;
+    background-color: rgb(217, 198, 249);
+    cursor: url('http://127.0.0.1:5500/pictures/cursor.png'), auto;
+//     .not-cursor {
+//         width: 200px;
+//         height: 100px;
+//         cursor: pointer;
+//     }
 }
+
+
+
