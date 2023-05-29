@@ -11,15 +11,18 @@ class Game {
     };
 
     randomLocation() {
-        const randX = Math.random(this.pond)
+        const randY = Math.random() * (this.pondBot - this.pondTop) + this.pondTop;
+        const randX = Math.random() * (this.pondRight - this.pondLeft) + this.pondLeft; 
+
+        return [randX, randY];
     }
 
     drawRipples(ctx) {
         ctx.strokeStyle = "white";
-
         ctx.beginPath();
+        const position = this.randomLocation(); 
         ctx.arc(
-          700, 650, 50, 0, 2 * Math.PI, true
+          position[0], position[1], 50, 0, 2 * Math.PI, true
         );
         ctx.stroke();
     }

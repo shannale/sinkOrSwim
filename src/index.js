@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       introduction.classList.add("hidden");
       
       // starting a new game
-      const game = new Game();
+      const game = new Game(canvas.width, canvas.height);
       new GameView(game, ctx).start();
     }
     

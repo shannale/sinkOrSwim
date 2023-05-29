@@ -106,35 +106,6 @@ body {
     display: none, 
 }
 
-// for github and linkedin link icons 
-// header {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 100%;
-//     height: 10%;
-//     margin: 25px 0;
-//   }
-  
-//   .icon {
-//     margin-right: 25px;
-//     margin-left: 25px;
-//   }
-  
-//   .medium.icon {
-//     height: 45px;
-//     width: 45px;
-//   }
-  
-//   .light.icon {
-//     opacity: 0.5;
-//   }
-  
-//   .icon > img {
-//     height: 100%;
-//     width: 100%;
-//   }
-
 
 html, body, figure, figcaption, ul, li, h1, h2 {
     margin: 0;
@@ -147,11 +118,36 @@ html, body, figure, figcaption, ul, li, h1, h2 {
 h1 {
     font-size: 60px;
     margin: 30px;
-    color: rgb(30, 97, 79);
+    color: rgb(54, 170, 139);
     text-overflow: h1; 
     white-space: nowrap;
     overflow: hidden;
 }
 
+
+// github and linked in icon links 
+
+header {
+    margin: 30px 0;
+}
+
+// header {
+//     width: 100%;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 10px 0px;
+// }
+
+.medium.icon {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    // width:10px;
+    // height:10px;
+    top: -1400px;
+    padding: 20px
+}
 
 
