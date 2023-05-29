@@ -7,14 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const ctx = canvas.getContext('2d');
     
     const img = new Image();
-    img.src = 'pictures/pond.png';
-  
     img.onload = () => {
       resizeCanvas();
       window.addEventListener('resize', resizeCanvas);
       drawImageOnCanvas();
     };
-  
+    img.src = 'pictures/pond.png';
+    
     function resizeCanvas() {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
@@ -29,33 +28,18 @@ document.addEventListener("DOMContentLoaded", () => {
   
       ctx.drawImage(img, x, y, scaledWidth, scaledHeight);
     }
+
+    // logic for starting game
+    const startGame = (e) => {
+      // hide introduction
+      let introduction = document.getElementById("introduction");
+      introduction.classList.add("hidden");
+      
+      // starting a new game
+      const game = new Game();
+      new GameView(game, ctx).start();
+    }
+    
+    let startButton = document.getElementById("start-button");
+    startButton.addEventListener("click", startGame);
   });
-
-// for game
-document.addEventListener("DOMContentLoaded", () => {
-  const canvasEl = document.getElementById("canvas");
-  canvasEl.width = Game.DIM_X;
-  canvasEl.height = Game.DIM_Y;
-  
-  const ctx = canvasEl.getContext("2d");
-  const game = new Game();
-  new GameView(game, ctx).start();
-});
-
-// instructions introduction box 
-document.addEventListener("DOMContentLoaded", () => {
-  // let game = new Game();
-
-  let startButton = document.getElementById("start-button");
-
-  startButton.addEventListener("click",startGame)
-
-});
-
-
-const startGame = (e) => {
-  let start = document.getElementById("introduction");
-  start.classList.add("hidden");
-}
-
-

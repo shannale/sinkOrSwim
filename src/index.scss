@@ -24,7 +24,7 @@
 
 body {
     background-color: rgb(217, 198, 249);
-    cursor: url('http://127.0.0.1:5500/pictures/cursor.png'), auto;
+    cursor: url('http://127.0.0.1:5500/pictures/cursor.png') 120 120, auto;
 //     .not-cursor {
 //         width: 200px;
 //         height: 100px;
@@ -40,6 +40,7 @@ body {
     color: white;
     border-radius: 8px;
     display: flex;
+    margin-top: 80px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -51,7 +52,7 @@ body {
 
 .small.game-title {
     font-size: 64px;
-    padding-bottom: 25px;
+    margin-bottom: 80px;
 }
 
 #introduction-content {
@@ -60,9 +61,13 @@ body {
     width: 60vw;
     top: 5vh;
     left: 20vw;
-    padding: 50px;
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
     background: white;
-    box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.25);
+    box-shadow: 12px 12px 12px rgba(86, 50, 85, 0.25);
     border-radius: 20px;
     font-size: 18px;
     line-height: 28px;
@@ -71,7 +76,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
   @media only screen and (max-width: 823px) {
     #introduction-content {
@@ -88,16 +93,65 @@ body {
 
   }
 
-  #game-description {
+#game-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-  }
+    text-align: center;
+    font-size: 30px;
+}
 
- .hidden {
+.hidden {
     display: none, 
+}
 
-  }
+// for github and linkedin link icons 
+// header {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+//     height: 10%;
+//     margin: 25px 0;
+//   }
+  
+//   .icon {
+//     margin-right: 25px;
+//     margin-left: 25px;
+//   }
+  
+//   .medium.icon {
+//     height: 45px;
+//     width: 45px;
+//   }
+  
+//   .light.icon {
+//     opacity: 0.5;
+//   }
+  
+//   .icon > img {
+//     height: 100%;
+//     width: 100%;
+//   }
+
+
+html, body, figure, figcaption, ul, li, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 30px;
+    color: rgb(30, 97, 79);
+    text-overflow: h1; 
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 
 
