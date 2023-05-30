@@ -221,7 +221,7 @@ body {
   align-items: center;
 }
 
-@media only screen and (max-width: 823px) {
+@media only screen and (max-width: 700px) {
   #introduction-content {
     position: fixed;
     width: 94vw;
@@ -271,7 +271,7 @@ body {
   width: 10%;
   height: 100px;
   top: 200px;
-  left: 2000px;
+  left: 2250px;
   font-size: 30px;
   font-family: sans-serif;
   vertical-align: text-top;
@@ -349,7 +349,7 @@ h1 {
 }
 
 header {
-  margin: 160px 0;
+  margin: -50px 0;
 }
 
 .medium.icon {
