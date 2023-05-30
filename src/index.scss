@@ -1,6 +1,5 @@
 @import "reset.css";
 
-
 * {
     margin: 0px;
     padding: 0px; 
@@ -15,27 +14,18 @@
     display: none;
 }
 
-// // styling for background
-// #canvas {
-//     width: auto;
-//     max-height: 100%;
-//     cursor: url("pictures/cursor.png"), auto;
-// }
+// styling for background
 
 body {
     background-color: rgb(217, 198, 249);
     cursor: url('http://127.0.0.1:5500/pictures/cursor.png') 120 120, auto;
-//     .not-cursor {
-//         width: 200px;
-//         height: 100px;
-//         cursor: pointer;
-//     }
 }
 
 
 #start-button {
     width: 60%;
     height: 54px;
+    font-size: 25px;
     background: #e3bed0;
     color: white;
     border-radius: 8px;
@@ -106,14 +96,110 @@ body {
     display: none, 
 }
 
+.pull {
+    z-index: 1000;
+    // left: 100px;
+    // top: 100px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block // might need to change
+}
 
-html, body, figure, figcaption, ul, li, h1, h2 {
+#pull_warning {
+    z-index:1000;
+    visibility:hidden;
+    position:absolute;
+    left: 1100px;
+    top: 500px;
+    font: sans-serif;
+    color: white;
+}
+
+// #score {
+//     justify-content: center;
+// }
+
+#score_box {
+    width: 10%;
+    height: 100px;
+    top:200px;
+    left:2000px;
+    font-size:30px;
+    font-family: sans-serif;
+    vertical-align: text-top;
+    background: transparent;
+    color:#eaf3f2;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+
+    //pacman shape
+    width: 20px;
+    height: 20px;
+    border-right: 80px solid transparent;
+    border-top: 60px solid rgb(232, 151, 214);
+    border-left: 140px solid rgb(232, 151, 214);
+    border-bottom: 70px solid rgb(232, 151, 214);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    
+    
+}
+
+#strikes {
+    width: 10%;
+    height: 100px;
+    top:200px;
+    left:100px;
+    font-size:30px;
+    // background: white;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    }
+
+#fish {
+    width: 100%;
+    height: 1000px;
+    top:250px;
+    left:0px;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    z-index: 998;
+    position: absolute;
+    }
+
+#background {
+    width: 100%;
+    height: 80%;
+    left:0px;
+    top:250px;
+    position: absolute;
+    z-index: -1;
+}
+
+html, body, h1, h2 {
     margin: 0;
     padding: 0;
     border: 0;
     font: sans-serif;
     text-align: center;
 }
+
+// for fishie border 
 
 h1 {
     font-size: 60px;
@@ -126,19 +212,10 @@ h1 {
 
 
 // github and linked in icon links 
-
+// spacing for icons 
 header {
-    margin: 30px 0;
+    margin: 160px 0;
 }
-
-// header {
-//     width: 100%;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     align-items: center;
-//     margin: 10px 0px;
-// }
 
 .medium.icon {
     height: 45px;
@@ -150,4 +227,17 @@ header {
     padding: 20px
 }
 
-
+#play-again-button {
+    width: 200px;
+    height: 54px;
+    font-size: 25px;
+    background-color: #e3bed0;
+    color: white;
+    border-radius: 4px;
+    margin: 10px 0px;
+    position: relative;
+  }
+  
+  #play-again-button:hover {
+    background: #eb96d3;
+  }

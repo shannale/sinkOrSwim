@@ -14,7 +14,7 @@ class GameView {
         const timeDelta = time - this.lastTime;
 
         // this.game.step(timeDelta);
-        if (timeDelta > 3000) {
+        if (timeDelta > 1000) {
             this.game.draw(this.ctx);
             this.lastTime = time;
         }
