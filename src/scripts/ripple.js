@@ -30,12 +30,12 @@ class Ripples {
         pull_warning.style.visibility = 'hidden';
     }
 
-    stillAlive(startTime){
+    stillAlive(){
         if(!this.clicked){
             if(this.pull_timer === 0)
                 return false;
             else {
-                this.pull_timer -= 1;
+                this.pull_timer--;
                 return true;
             }
         }

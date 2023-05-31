@@ -31,19 +31,18 @@ document.addEventListener("DOMContentLoaded", () => {
       // starting a new game
       const game = new Game(canvas.width, canvas.height);
       new GameView(game, ctx).start();
+
+      let endGame = document.getElementById("end-game");
+      endGame.classList.add("hidden");
     }
     
     let startButton = document.getElementById("start-button");
     startButton.addEventListener("click", startGame);
-  
+    
+    let playAgainButton = document.getElementById("game-over-button");
+    playAgainButton.addEventListener("click", startGame);
   });
 
-  // let playAgainButton = document.getElementById("play-again-button");
-
-  // playAgainButton.addEventListener("click", () => { 
-  //   game.restart();
-
-  // });
 
 
 

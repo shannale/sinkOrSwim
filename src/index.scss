@@ -93,7 +93,8 @@ body {
 }
 
 .hidden {
-    display: none, 
+    z-index: -1;
+    display: none;
 }
 
 .pull {
@@ -101,22 +102,22 @@ body {
     // left: 100px;
     // top: 100px;
     position: absolute;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background-color: white;
     border-radius: 50%;
-    display: inline-block // might need to change
+    display: inline-block; // might need to change
 }
 
 #pull_warning {
     z-index:1000;
     visibility:hidden;
     position:absolute;
-    left: 1100px;
-    top: 500px;
+    left: 800px;
+    top: 400px;
     font: sans-serif;
     color: white;
-    align-items: center;
+
 }
 
 // #score {
@@ -228,7 +229,62 @@ header {
     padding: 20px
 }
 
-#play-again-button {
+
+#end-game {
+    &.hidden {
+        z-index: -10;
+    }
+    z-index: 999;
+    position: fixed;
+    width: 60vw;
+    top: 5vh;
+    left: 20vw;
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    background: white;
+    box-shadow: 12px 12px 12px rgba(86, 50, 85, 0.25);
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  @media only screen and (max-width: 800px) {
+    #end-game {
+      position: fixed;
+      width: 94vw;
+      top: 5vh;
+      left: 3vw;
+      padding: 20px;
+      box-shadow: 8px 8px 8px rgba(240, 235, 235, 0.25);
+      border-radius: 15px;
+      font-size: 13px;
+      line-height: 18px;
+    }
+
+  }
+
+#game-over-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+#game-over-title {
+    font-size: 64px;
+    margin-bottom: 80px;
+}
+#game-over-button {
     width: 200px;
     height: 54px;
     font-size: 25px;
@@ -239,6 +295,6 @@ header {
     position: relative;
   }
   
-  #play-again-button:hover {
+  #game-over-button:hover {
     background: #eb96d3;
   }
