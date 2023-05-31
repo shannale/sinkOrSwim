@@ -68,7 +68,7 @@ body {
     align-items: center;
 }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     #introduction-content {
       position: fixed;
       width: 94vw;
@@ -123,10 +123,10 @@ body {
 // }
 
 #score_box {
-    width: 10%;
-    height: 100px;
+    // width: 10%;
+    // height: 100px;
     top:200px;
-    left:2250px;
+    left:1600px;
     font-size:30px;
     font-family: sans-serif;
     vertical-align: text-top;
@@ -214,7 +214,7 @@ h1 {
 // github and linked in icon links 
 // spacing for icons 
 header {
-    margin: -50px 0;
+    margin: 450px 0;
 }
 
 .medium.icon {
