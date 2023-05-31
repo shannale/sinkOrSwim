@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 
-#pond {
-    // top: 50%; 
-    // left: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    display: none;
-}
+// #pond {
+//     // top: 50%; 
+//     // left: 50%;
+//     max-width: 20%;
+//     max-height: 20%;
+//     display: none;
+// }
 
 // styling for background
 
@@ -113,8 +113,8 @@ body {
     z-index:1000;
     visibility:hidden;
     position:absolute;
-    left: 800px;
-    top: 400px;
+    left: 600px;
+    top: 350px;
     font: sans-serif;
     color: white;
 
@@ -127,8 +127,9 @@ body {
 #score_box {
     // width: 10%;
     // height: 100px;
-    top:200px;
-    left:1600px;
+    // top: 1%;
+    left: 83%;
+    // bottom: 50%;
     font-size:30px;
     font-family: sans-serif;
     vertical-align: text-top;
@@ -136,10 +137,10 @@ body {
     color:#eaf3f2;
     border-radius: 8px;
     display: flex;
-    margin-top: 80px;
+    margin-top: -44%;
     justify-content: right;
     align-items: right;
-    position: absolute;
+    position: relative;
 
     //pacman shape
     width: 20px;
@@ -216,7 +217,10 @@ h1 {
 // github and linked in icon links 
 // spacing for icons 
 header {
-    margin: 450px 0;
+    // margin: 620px 0;
+    position: relative;
+    margin: 76% 0;
+    
 }
 
 .medium.icon {
