@@ -3,12 +3,15 @@ const fishies = [
     'pictures/octo.png',
     'pictures/shark.png',
     'pictures/turtle.png',
-    'pictures/whale.png'
+    'pictures/whale.png',
+    'pictures/crab.png',
+    'pictures/seal.png',
+    'pictures/dolphin.png'
 ]
 
 class Fish {
     constructor(width, height) {
-        let index = Math.floor(Math.random() * 5);
+        let index = Math.floor(Math.random() * 8);
         this.img = document.createElement('img');
         this.img.src = fishies[index];
         this.img.style.visibility = 'hidden';
