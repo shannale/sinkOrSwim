@@ -265,6 +265,7 @@ body {
   top: 500px;
   font: sans-serif;
   color: white;
+  align-items: center;
 }
 
 #score_box {
