@@ -16,7 +16,7 @@ There are many variations of fish with the combination of timing in the game `Si
 
 In `SinkOrSwim`, users will be able to:
 - Start the game 
-- Control the fishing rod with the cursor and click to active 
+- Control the fishing rod with the cursor and click to activate 
 - Collect different fish and increase their score 
 - Have 3 strikes to miss any fish before the game is over 
 
