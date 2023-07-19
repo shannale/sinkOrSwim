@@ -2,6 +2,12 @@
 
 [Link to Game!](https://shannale.github.io/sinkOrSwim/)
 
+
+
+https://github.com/shannale/sinkOrSwim/assets/123720213/cc816be9-65ef-408c-b75e-458b59ed07df
+
+
+
 ## Background 
 You are in search of fish to catch in this magical pond that is a home for all sea creatures.
 When the game begins, it will start off with an empty pond with a fishing rod controlled by the cursor. This pond is a circular grid that will generate ripples at a randomized location with a randomized timer that will show ripples indicating to the player the location of the fish. For each iteration of the game collecting the fish follow these rules: 
