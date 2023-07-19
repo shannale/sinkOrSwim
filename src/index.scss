@@ -18,7 +18,7 @@
 
 body {
     background-color: rgb(217, 198, 249);
-    cursor: url('http://127.0.0.1:5500/pictures/cursor.png') 120 120, auto;
+    cursor: url('./pictures/cursor.png') 120 120, auto;
 }
 
 
@@ -217,21 +217,16 @@ h1 {
 // github and linked in icon links 
 // spacing for icons 
 header {
-    // margin: 620px 0;
     position: relative;
-    margin: 76% 0;
-    
-}
+    margin: 76% 0; 
+} 
 
-.medium.icon {
-    height: 45px;
-    width: 45px;
-    position: relative;
-    // width:10px;
-    // height:10px;
-    top: -1400px;
-    padding: 20px
-}
+// .medium.icon {
+//     height: 45px;
+//     width: 45px;
+//     // position: relative;
+//     padding: 20px;
+// }
 
 
 #end-game {
@@ -301,4 +296,4 @@ header {
   
   #game-over-button:hover {
     background: #eb96d3;
-  }
+}

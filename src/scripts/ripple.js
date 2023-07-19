@@ -48,7 +48,6 @@ class Ripples {
     }
 
     drawPull() {
-        console.log("pull is ready");
 
         // pull warning class
         let pull_warning = document.getElementById("pull_warning")
@@ -66,7 +65,6 @@ class Ripples {
         fish.addEventListener('click', function(event) {
 
             // click event coordinates 
-            console.log("clicked")
             let clickedX = event.clientX;
             let clickedY = event.clientY;
             // clickedY = clickedY - 100;
@@ -78,7 +76,6 @@ class Ripples {
                 // check coordinates w position 
                 if (clickedX <= desiredX + 200 && clickedX >= desiredX - 200 && clickedY >= desiredY - 200 && clickedY <= desiredY + 200) {
                     // click event 
-                    console.log('click event at right position');
                     self.clickPull()
                     desiredX = -1;
                     desiredY = -1;
