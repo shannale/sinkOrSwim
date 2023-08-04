@@ -34,7 +34,10 @@ In `SinkOrSwim`, users will be able to:
 
 - The `Canvas API` to render the game
 - `Webpack and Babel` to bundle and transpile the source Javascript code 
--  `npm` to manage project dependencies 
+-  `npm` to manage project dependencies
+
+<img width="516" alt="Screenshot 2023-08-04 at 12 19 53 PM" src="https://github.com/shannale/sinkOrSwim/assets/123720213/8eccd770-4bce-4ee7-96d9-b0ee1ed61075">
+
 
 
 ## Bonus Features 
