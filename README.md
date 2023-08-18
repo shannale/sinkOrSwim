@@ -32,7 +32,7 @@ In `SinkOrSwim`, users will be able to:
 
 ## Technologies, Libraries, APIs
 
-- The `Canvas API` to render the game
+- `Canvas API` to render the game
 - `Webpack and Babel` to bundle and transpile the source Javascript code 
 -  `npm` to manage project dependencies
 
