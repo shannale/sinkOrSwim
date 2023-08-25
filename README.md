@@ -12,7 +12,7 @@ https://github.com/shannale/sinkOrSwim/assets/123720213/cc816be9-65ef-408c-b75e-
 You are in search of fish to catch in this magical pond that is a home for all sea creatures.
 When the game begins, it will start off with an empty pond with a fishing rod controlled by the cursor. This pond is a circular grid that will generate ripples at a randomized location with a randomized timer that will show ripples indicating to the player the location of the fish. For each iteration of the game collecting the fish follow these rules: 
 
-1) The player must correctly identify the location of the ripple and click within the allotted time* in the area before the ripples disappear to be able to successfully collect the fish. 
+1) The player must correctly identify the location of the ripple and click within the allotted time* in the area before the ripples disappear to be able to successfully collect fish. 
 
 2) If a player is controlling the fishing rod within the correct area, but clicks at a time when not indicated, the ripple disappears and the fish swims away free. 
 
