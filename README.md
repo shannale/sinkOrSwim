@@ -1,6 +1,6 @@
 # SinkOrSwim
 
-[Link to Game!](https://shannale.github.io/sinkOrSwim/)
+[Click Here To Play!](https://shannale.github.io/sinkOrSwim/)
 
 
 
