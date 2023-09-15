@@ -18,7 +18,7 @@ When the game begins, it will start off with an empty pond with a fishing rod co
 
 ** Once a ripple has appeared, the player must wait for a `PULL` message to pop up indicating when to click. 
 
-There are many variations of fish with the combination of timing in the game `SinkOrSwim`. The logistics of the game will be outlined in the `Functionality & MVP` section. 
+There are many variations of fish with the combination of timing in the game `SinkOrSwim`. Logistics of the game will be outlined in the `Functionality & MVP` section. 
 
 ## Functionality & MVPs 
 
